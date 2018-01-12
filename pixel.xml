@@ -4,7 +4,6 @@
   <remove-project name="platform/hardware/qcom/media"  />
 
   <!-- Remotes-->
-  <remote name="github"   fetch="https://github.com" />
   <remote name="fabulous" fetch="https://github.com/Fabulous-Oreo" revision="refs/heads/oreo-mr1" />
 
   <!--Device repos-->
