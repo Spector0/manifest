@@ -8,7 +8,6 @@
   <remote name="fabulous" fetch="https://github.com/Fabulous-Oreo" revision="refs/heads/oreo-mr1" />
 
   <!--Device repos-->
-  <project name="device_oneplus_bacon"           path="device/oneplus/bacon"           remote="fabulous" />
   <project name="device_oppo_common"             path="device/oppo/common"             remote="fabulous" />
   <project name="external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="fabulous" />
   <project name="hardware_qcom_camera"           path="hardware/qcom/camera"           remote="fabulous" />
@@ -17,6 +16,9 @@
   <project name="packages_apps_Snap-bacon"       path="packages/apps/Snap-bacon"       remote="fabulous" />
   <project name="vendor_oneplus"                 path="vendor/oneplus"                 remote="fabulous" />
 
+  <!-- device tree -->
+  <project name="device/oneplus/bacon"         revision="pixel"      path="device/oneplus/bacon"    remote="Spector0"
+ 
   <!-- Lineage Repos -->
   <project name="LineageOS/android_device_qcom_common"                revision="cm-14.1"      path="device/qcom/common"                remote="github" />
   <project name="LineageOS/android_device_qcom_sepolicy"              revision="lineage-15.0" path="device/qcom/sepolicy"              remote="github" />
